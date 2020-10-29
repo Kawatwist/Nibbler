@@ -14,10 +14,12 @@ class Game
 		int8_t					dir;
 		int8_t					mapSizeX;
 		int8_t					mapSizeY;
+		int16_t					applepos;
 		/* Private Data */
 	protected:
 		/* Protected Data */
 	public:
+		void					setApplePos(void);
 		void					removeSnake(int16_t i);
 		void        			placeSnake(int16_t i);
 		void					drawMap();

@@ -34,3 +34,4 @@ Game & Game::operator=(Game const & Class)
 {
 	return (*this);
 }
+etc/hosts.allow
